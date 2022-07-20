@@ -4,7 +4,7 @@ import React from 'react';
 import App from '../App';
 import renderWithRouter from './helper/renderWithRouter';
 
-describe('Teste do componente <NotFound.js />', () => {
+describe('Teste do componente <FavoritePokemons.js />', () => {
   test('Se é exibida na tela uma mensagem, caso não tenha pokémons favoritos', () => {
     const { history } = renderWithRouter(<App />);
     history.push('/favorites');
